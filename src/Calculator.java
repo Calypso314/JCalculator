@@ -382,6 +382,7 @@ public class Calculator extends javax.swing.JFrame {  //With application small a
             screen.setText("0");
             operation = "";
             toggle = "";
+            doubleResult = 0;
         });
 
 
