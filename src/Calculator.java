@@ -121,9 +121,8 @@ public class Calculator extends javax.swing.JFrame {  //With application small a
                     }
                     else {
                         screen.setText(screen.getText() + Integer.toString(java.util.Arrays.asList(numButtons).indexOf(a) + 1));
-                    }
-
-                }
+                    } 
+                  } // INCREMENTED INDEX OF ELEMENTS OF numButtons ARRAY IS USED AS VALUE OF THE BUTTON CLICKED
             });
 
         }
@@ -139,8 +138,8 @@ public class Calculator extends javax.swing.JFrame {  //With application small a
                         toggle = operands[java.util.Arrays.asList(opButtons).indexOf(a)];
                         operation = operands[java.util.Arrays.asList(opButtons).indexOf(a)];
                     }
-                }
-            });
+                }    // FOR EVERY OPERATION BUTTON FROM opButton ARRAY, THERE IS STRING VALUE IN operands ARRAY
+            });     //  INDEX OF EVERY ITEM FROM FROM opButtons CORRESPONDS TO THE INDEX OF operands ITEM
         }
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
